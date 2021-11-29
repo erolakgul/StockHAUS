@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.erolakgul.stockhaus.controller.fragment.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_material"
+        android:name="com.erolakgul.stockhaus.controller.fragment.material.MaterialFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/material_fragment" />
+
+    <fragment
+        android:id="@+id/nav_materialdetail"
+        android:name="com.erolakgul.stockhaus.controller.fragment.material.detail.MaterialDetailFragment"
+        android:label="Malzeme Detayı"
+        tools:layout="@layout/material_detail_fragment" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.erolakgul.stockhaus.controller.fragment.stores.StoreFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/store_fragment" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.erolakgul.stockhaus.controller.fragment.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.erolakgul.stockhaus.controller.fragment.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.erolakgul.stockhaus.controller.fragment.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_user"
+        android:name="com.erolakgul.stockhaus.controller.fragment.users.UserFragment"
+        android:label="Kullanıcılar"
+        tools:layout="@layout/user_fragment" />
+
+    <fragment
+        android:id="@+id/nav_inventory"
+        android:name="com.erolakgul.stockhaus.controller.fragment.inventory.InventoryFragment"
+        android:label="Sayım"
+        tools:layout="@layout/inventory_fragment" />
+
+    <fragment
+        android:id="@+id/nav_inventoryitems"
+        android:name="com.erolakgul.stockhaus.controller.fragment.inventory.items.InventoryItemsFragment"
+        android:label="Sayım Kalemleri"
+        tools:layout="@layout/inventory_items_fragment" />
+
+
+</navigation>

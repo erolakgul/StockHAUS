@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@android:dimen/notification_large_icon_height"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!--<ScrollView android:layout_height="wrap_content">-->
+
+    <TableLayout
+        android:id="@+id/score_table"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <!--android:layout_marginHorizontal="10dp"-->
+
+        <TableRow
+            android:id="@+id/tableRow">
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="id"
+                android:textSize="17sp"
+                />
+            <!--android:background = "@drawable/cellshape"-->
+
+            <TextView
+                android:id="@+id/lst_code"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="kod"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/lst_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:gravity="center"
+                android:hint="açıklama"
+                android:textSize="17sp"
+                />
+
+            <TextView
+                android:id="@+id/lst_warestock"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="1dp"
+                android:gravity="center"
+                android:hint="depo stok"
+                android:textSize="17sp"
+                />
+
+        </TableRow>
+    </TableLayout>
+    <!--</ScrollView>-->
+
+
+</TableLayout>

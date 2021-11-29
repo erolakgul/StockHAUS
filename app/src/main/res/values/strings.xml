@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">StockHAUS</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Stock HAUS</string>
+    <string name="nav_header_subtitle">erol.akgul@haus.com.tr</string>
+    <string name="nav_header_desc">Başlık</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <string name="action_quit">Çıkış</string>
+
+    <string name="menu_home">Ana Sayfa</string>
+    <string name="menu_gallery">Malzemeler</string>
+    <string name="menu_store">Depolar</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Araçlar</string>
+    <string name="menu_share">Paylaş</string>
+    <string name="menu_send">Gönder</string>
+</resources>

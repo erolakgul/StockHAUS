@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@android:dimen/notification_large_icon_height"
+    android:orientation="horizontal"
+    android:padding="5dip">
+
+    <!--<ScrollView android:layout_height="wrap_content">-->
+
+        <TableLayout
+            android:id="@+id/score_table"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <!--android:layout_marginHorizontal="10dp"-->
+
+            <TableRow
+                android:id="@+id/tableRow">
+
+                <TextView
+                    android:id="@+id/id"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="id"
+                    android:textSize="17sp"
+                    />
+                <!--android:background = "@drawable/cellshape"-->
+
+                <TextView
+                    android:id="@+id/lst_warehouse"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="depo"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:id="@+id/lst_stockplace"
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:gravity="center"
+                    android:hint="stockplace"
+                    android:textSize="17sp"
+                    />
+
+                <TextView
+                    android:id="@+id/lst_desc"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="1dp"
+                    android:gravity="center"
+                    android:hint="description"
+                    android:textSize="17sp"
+                    />
+
+            </TableRow>
+        </TableLayout>
+    <!--</ScrollView>-->
+
+
+</TableLayout>
